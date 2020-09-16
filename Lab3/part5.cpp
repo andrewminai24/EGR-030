@@ -10,5 +10,10 @@ helpful in determining the length. Sample output is below
 #include <iostream>
 using namespace std;
 int main(void){
+    int user;
     cout <<"Enter your first name" << endl;
+    cin >> user;
+    cout << "Enter your last name" << endl;
+    cin >> user;
+    
 }
