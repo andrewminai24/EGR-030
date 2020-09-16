@@ -8,12 +8,23 @@ helpful in determining the length. Sample output is below
 */
 
 #include <iostream>
+#include <string>
 using namespace std;
+
+string firstname,lastname;
+
 int main(void){
-    int user;
+
     cout <<"Enter your first name" << endl;
-    cin >> user;
+    getline(cin,firstname);
     cout << "Enter your last name" << endl;
-    cin >> user;
-    
+    getline(cin,lastname);
+
+    string cat = firstname + lastname + " ";
+    int size =  cat.length();
+
+    cout << firstname << " " << lastname << endl;
+    cout << "Your name has " << cat.length() << "characters" << endl;
+
+    return(0);
 }
