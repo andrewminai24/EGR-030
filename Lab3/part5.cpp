@@ -20,10 +20,10 @@ int main(void){
     cout << "Enter your last name" << endl;
     getline(cin,lastname);
 
-    string cat = firstname + lastname + " ";
+    string cat = firstname + " " + lastname;
     int size =  cat.length();
 
-    cout << firstname << " " << lastname << endl;
+    cout << cat << endl;
     cout << "Your name has " << cat.length() << "characters" << endl;
 
     return(0);
