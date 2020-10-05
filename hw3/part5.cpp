@@ -12,3 +12,20 @@ using namespace std;
     cout << total << endl;
     return(0);
  }
+/*
+section .text
+    global  _start
+_start:
+    mov ax,@data
+    mov ds,ax
+    mov ax,var1
+    mov bx,var2
+    clc
+    add ax,bx
+    mov[500],ax
+
+section .data
+var1 dw 0x5h
+var2 dw 0x7h
+result dw 01 dup(?),'$'
+*/

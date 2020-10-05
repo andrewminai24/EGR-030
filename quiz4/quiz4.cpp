@@ -10,7 +10,7 @@ int x=7;
 
 if (x > 2)
 
-  {
+  { 
 
        if (x < 4)
 
@@ -23,6 +23,6 @@ if (x > 2)
           cout << "Have a great day.\n";
 
        }
-cout << x << endl;
+
 return(0);
 }

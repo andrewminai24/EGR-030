@@ -13,7 +13,7 @@ int main()
   num6 = 1.3;
   
   cout << setprecision(2) << fixed;
-  cout << setw(9) <<"List 1"  << setw(9) << "list2" << endl;
+  cout << setw(9) << "List 1"  << setw(9) << "list2" << endl;
   cout << setw(9) << num1 << setw(9)<< num2 << endl;
   cout << setw(9) << num3 << setw(9)<< num4 << endl;
   cout << setw(9) << num5 << setw(9)<< num6 << endl;
