@@ -41,8 +41,6 @@ int main ()
 {
   string name1, name2;
 
-  //int error = 0;
-
 
   int currentPlayer = 1;	// This is a flag that will track whose turn it is.
   // Later on in the code, this will get toggled to 2
@@ -57,15 +55,15 @@ int main ()
 
   int NumOfSticks;
 
-  // TASK 2a (3 pts): Write the correct code to ask for player 1's name and
+  // TASK 2 (3 pts): Write the correct code to ask for player 1's name and
   // store it into name1. Remember, their name may have a space, so collect 
   // the name appropriately.
   cout << "Player1 what is your name\n";
-  cin >> name1;
+  getline(cin,name1);
 
   // TASK 2b (1 pt): Repeat Task 2a to ask for and collect player 2's name into name2.
   cout << "Player2 what is your name\n";
-  cin >> name2;
+  getline(cin,name2);
 
 
 
